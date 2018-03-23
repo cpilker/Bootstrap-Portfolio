@@ -54,10 +54,16 @@ body {
 }
 
 .info {
-    position: relative;
+    width: 100%;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     padding: 10px 25px 10px 25px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+p {
+    padding-left: 10px;
 }
 
 h2 {
@@ -67,6 +73,24 @@ h2 {
     border-bottom: 1px solid #dddddd;
     margin-bottom: 5px;
 }
+
+h3 {
+    margin: 0;
+    color: #4aaaaa;
+    font-size: 22px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 5px;
+}
+
+.connect {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img {
+    width: 100%;
+}
+
 
 /* This is for the About me page */
 
@@ -123,7 +147,8 @@ button:hover {
 /* This is for the footer */
 
 footer {
-    background-position-y: bottom;
+    position: relative;
+    bottom: 0;
     width: 100%;
     padding: 10px 0 10px 0;
     margin-top: 10px;
