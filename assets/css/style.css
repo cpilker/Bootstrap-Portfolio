@@ -89,6 +89,7 @@ h3 {
 
 img {
     width: 100%;
+    
 }
 
 
@@ -102,6 +103,7 @@ img {
 .thumbnail {
     margin-right: 5px;
     opacity: 0.75;
+    border: 0px;
 }
 
 .thumbnail:hover {
@@ -112,12 +114,22 @@ img {
     background: teal;
 }
 
+.Github-link {
+    text-align: center;
+}
+
+.Github-link:hover {
+    font-weight: bold;
+}
+
+
 .text {
     position: relative;
     background: #4aaaaa;
     text-align: center;
     padding: 5px;
     color: #ffffff;
+    height: 100%;
 }
 
 .thumbnail {
